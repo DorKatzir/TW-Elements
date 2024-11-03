@@ -13,6 +13,14 @@ export default {
   ],
 
   darkMode: "class",
+
+  // theme: {
+  //   extend: {
+  //     colors: {
+  //       'custom-color': '#123456',
+  //     }
+  //   }
+  // }
   
 }
 
