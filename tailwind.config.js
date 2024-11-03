@@ -2,7 +2,7 @@
 export default {
   content: [
     "index.html",
-    "./src/**/*.{html,js}",
+    "./src/js/**/*.{html,js}",
     "./node_modules/tw-elements/js/**/*.js",
   ],
   theme: {
