@@ -2,10 +2,16 @@
 export default {
   content: [
     "index.html",
+    "./src/**/*.{html,js}",
+    "./node_modules/tw-elements/js/**/*.js",
   ],
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require("./node_modules/tw-elements/plugin.cjs")
+  ],
+
+  darkMode: "class"
 }
 
