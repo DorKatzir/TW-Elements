@@ -2,6 +2,12 @@
 import {
     Carousel,
     initTWE,
+    Collapse,
+    Dropdown,
+    Ripple,
+    
   } from "tw-elements";
   
-  initTWE({ Carousel });
+initTWE({ Carousel, Collapse, Dropdown, Ripple });
+
+
