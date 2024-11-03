@@ -12,6 +12,7 @@ export default {
     require("./node_modules/tw-elements/plugin.cjs")
   ],
 
-  darkMode: "class"
+  darkMode: "class",
+  
 }
 
